@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=Arima+Madurai|Audiowide|Bangers|Big+Shoulders+Display|Black+Ops+One|Bubblegum+Sans|Bungee|Chewy|Concert+One|Forum|Fredoka+One|Fugaz+One|Graduate|Gruppo|Kelly+Slab|Love+Ya+Like+A+Sister|Luckiest+Guy|Monoton|Nixie+One|Overlock|Poiret+One|Press+Start+2P|Special+Elite|Trade+Winds&display=swap');
+
+*,
+*::before,
+*::after {
+ margin: 0;
+ padding: 0;
+ box-sizing: inherit;
+}
+
+:root {
+
+ /* Fonts */
+
+ --fredoka: 'Fredoka One', cursive;
+--luckiest-guy: 'Luckiest Guy', cursive;
+--concert-one: 'Concert One', cursive;
+--poiret-one: 'Poiret One', cursive;
+--special-elite: 'Special Elite', cursive;
+--bangers: 'Bangers', cursive;
+--monoton: 'Monoton', cursive;
+--big-shoulders: 'Big Shoulders Display', cursive;
+--audiowide: 'Audiowide', cursive;
+--trade-winds: 'Trade Winds', cursive;
+--fugaz-one: 'Fugaz One', cursive;
+--press-start-2p: 'Press Start 2P', cursive;
+--chewy: 'Chewy', cursive;
+--forum: 'Forum', cursive;
+--black-ops-one: 'Black Ops One', cursive;
+--overlock: 'Overlock', cursive;
+--arima-maduria: 'Arima Madurai', cursive;
+--gruppo: 'Gruppo', cursive;
+--graduate: 'Graduate', cursive;
+--nixie-one: 'Nixie One', cursive;
+--bungee: 'Bungee', cursive;
+--kelly-slab: 'Kelly Slab', cursive;
+--love-ya: 'Love Ya Like A Sister', cursive;
+--bubblegum: 'Bubblegum Sans', cursive;
+
+/* Colors */
+
+--ww-blue: rgba(0, 5, 134, 1);
+--ww-red: rgba(218, 9, 30, 1);
+--ww-light-blue: rgba(12, 108, 206, 1);
+--ww-green: rgba(0, 117, 107, 1);
+--ww-black: rgba(0, 0, 0, 1);
+--ww-white: rgba(255, 255, 255, 1);
+--ww-grey-1: rgba(68, 68, 68, 1);
+--ww-grey-2: rgba(118, 118, 118, 1);
+--ww-grey-3: rgba(136, 136, 136, 1);
+--ww-grey-4: rgba(241, 241, 241, 1);
+--ww-grey-5: rgba(247, 247, 247, 1);
+}

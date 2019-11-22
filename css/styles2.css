@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css?family=Arima+Madurai|Audiowide|Bangers|Big+Shoulders+Display|Black+Ops+One|Bubblegum+Sans|Bungee|Chewy|Concert+One|Forum|Fredoka+One|Fugaz+One|Graduate|Gruppo|Kelly+Slab|Love+Ya+Like+A+Sister|Luckiest+Guy|Monoton|Nixie+One|Overlock|Poiret+One|Press+Start+2P|Special+Elite|Trade+Winds&display=swap');
+
+*,
+*::before,
+*::after {
+ margin: 0;
+ padding: 0;
+ box-sizing: inherit;
+}
+
+/* Variables */
+
+:root {
+
+  /* Fonts */
+
+  --fredoka: 'Fredoka One', cursive;
+  --luckiest-guy: 'Luckiest Guy', cursive;
+  --concert-one: 'Concert One', cursive;
+  --poiret-one: 'Poiret One', cursive;
+  --special-elite: 'Special Elite', cursive;
+  --bangers: 'Bangers', cursive;
+  --monoton: 'Monoton', cursive;
+  --big-shoulders: 'Big Shoulders Display', cursive;
+  --audiowide: 'Audiowide', cursive;
+  --trade-winds: 'Trade Winds', cursive;
+  --fugaz-one: 'Fugaz One', cursive;
+  --press-start-2p: 'Press Start 2P', cursive;
+  --chewy: 'Chewy', cursive;
+  --forum: 'Forum', cursive;
+  --black-ops-one: 'Black Ops One', cursive;
+  --overlock: 'Overlock', cursive;
+  --arima-maduria: 'Arima Madurai', cursive;
+  --gruppo: 'Gruppo', cursive;
+  --graduate: 'Graduate', cursive;
+  --nixie-one: 'Nixie One', cursive;
+  --bungee: 'Bungee', cursive;
+  --kelly-slab: 'Kelly Slab', cursive;
+  --love-ya: 'Love Ya Like A Sister', cursive;
+  --bubblegum: 'Bubblegum Sans', cursive;
+
+  /* Colors */
+
+  --ww-blue: rgba(0, 5, 134, 1);
+  --ww-red: rgba(218, 9, 30, 1);
+  --ww-light-blue: rgba(12, 108, 206, 1);
+  --ww-green: rgba(0, 117, 107, 1);
+  --ww-black: rgba(0, 0, 0, 1);
+  --ww-white: rgba(255, 255, 255, 1);
+  --ww-grey-1: rgba(68, 68, 68, 1);
+  --ww-grey-2: rgba(118, 118, 118, 1);
+  --ww-grey-3: rgba(136, 136, 136, 1);
+  --ww-grey-4: rgba(241, 241, 241, 1);
+  --ww-grey-5: rgba(247, 247, 247, 1);
+}
+
+html {
+ font-size: 10px;
+ box-sizing: border-box;
+}
+
+a {
+ text-decoration: none;
+}
+
+ul {
+ list-style: none;
+}
+
+img {
+ width: 100%;
+ max-width: 100%;
+ height: auto;
+}
+
+p {
+ font-size: 1.6rem;
+}
+
+.btn {
+ border-radius: 2rem;
+ background: var(--ww-black);
+ color: var(--ww-white);
+ padding: 1rem 2rem;
+ display: inline-block;
+ font-size: 1rem;
+ margin-top: 2rem;
+ transition: 420ms ease;
+}
+
+.btn:hover {
+ background: var(--ww-white);
+ color: var(--black);
+}
+
+section {
+ padding: 5rem 0;
+}
+
+body {
+ background: var(--ww-blue);
+ font-family: var(--trade-winds);
+}
+
+/* Header */
+
+header {
+ width: 100%;
+ height: 7rem;
+ position: absolute;
+ top: 0;
+ left: 0;
+ z-index: 1;
+}
+
+.container {
+ width: 100%;
+ max-width: 98rem;
+ padding: 0 1.5rem;
+ margin: 0 auto;
+}
+
+nav {
+ width: 100%;
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ padding: 1rem 0;
+}
+
+.nav__brand {
+ width: 3.5rem;
+}
+
+.menu__icons {
+ font-size: 3.5rem;
+ color: var(--ww-white);
+ cursor: pointer;
+ transition: 420ms ease;
+}
+
+.menu__icons:hover {
+ color: var(--ww-red);
+}
+
+.nav__list {
+ width: 25rem;
+ height: 100vh;
+ background: var(--ww-black);
+ position: fixed;
+ top: 0;
+ right: -26rem;
+ opacity: 0;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ transition: all 650ms ease-in-out, opacity 420ms ease;
+}
+
+.nav__list.active {
+ right: 0;
+ opacity: 1;
+}
+
+.close {
+ font-size: 1.8rem;
+ position: absolute;
+ bottom: 2rem;
+ text-align: center;
+}
+
+.close:hover {
+ color: var(--ww-white);
+}
+
+.nav__item {
+ margin: 2rem 0;
+}
+
+.nav__link {
+ font-size: 1.6rem;
+ color: var(--ww-white);
+ text-transform: uppercase;
+ transition: 420ms ease;
+}
+
+.nav__link:hover {
+ color: var(--ww-red);
+}
+
+/* Hero */
+
+#hero {
+ width: 100%;
+ height: 80vh;
+ background: linear-gradient(135deg, rgba(46, 64, 87, .7) 0%, rgba(46, 64, 87, .3) 100%), url('../img/elephant.jpeg') center no-repeat;
+ background-size: cover;
+ position: relative;
+}
+
+/* Media Queries */
+
+@media screen and (min-width: 600px) {
+
+ .nav__list {
+  width: initial;
+  height: initial;
+  background: transparent;
+  position: initial;
+  top: initial;
+  right: initial;
+  opacity: initial;
+  flex-direction: row;
+  transition: initial;
+ }
+
+ .nav__item {
+  margin: 0 2rem;
+ }
+
+ .menu__icons {
+  display: none;
+ }
+
+ .n
+}

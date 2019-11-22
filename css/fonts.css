@@ -1,0 +1,428 @@
+@import url('https://fonts.googleapis.com/css?family=Anonymous+Pro|Bai+Jamjuree|Carrois+Gothic+SC|Coda+Caption:800|Darker+Grotesque|Do+Hyeon|Gilda+Display|Homenaje|IM+Fell+English+SC|Krub|Montez|Overpass+Mono|Sansita|Seaweed+Script|Sedgwick+Ave+Display|Vast+Shadow|Yeon+Sung&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Abel|Arimo|Fira+Code|Fira+Sans|Heebo|Inconsolata|Josefin+Sans|Karla|Montserrat|Muli|Nanum+Gothic|Oxygen|Saira+Condensed|Source+Code+Pro|Staatliches|Titillium+Web|ZCOOL+XiaoWei&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Be+Vietnam|Big+Shoulders+Display|Mansalva|Muli|Oswald|Roboto+Condensed|Titillium+Web|Turret+Road|Vibes&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed|Chivo|Gothic+A1|Hind+Guntur|Istok+Web|M+PLUS+1p|Pathway+Gothic+One|Sacramento|Yantramanav&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css?family=Athiti|Capriola|Contrail+One|Duru+Sans|Freckle+Face|Krub|Manjari|Niramit|Palanquin+Dark|Pangolin&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Arima+Madurai|Audiowide|Bangers|Big+Shoulders+Display|Black+Ops+One|Bubblegum+Sans|Bungee|Chewy|Concert+One|Forum|Fredoka+One|Fugaz+One|Graduate|Gruppo|Kelly+Slab|Love+Ya+Like+A+Sister|Luckiest+Guy|Monoton|Nixie+One|Overlock|Poiret+One|Press+Start+2P|Special+Elite|Trade+Winds&display=swap');
+
+
+/* Reset */
+*,
+*::before,
+*::after {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+/* Presets */
+
+:root {
+ --fredoka: 'Fredoka One', cursive;
+--luckiest-guy: 'Luckiest Guy', cursive;
+--concert-one: 'Concert One', cursive;
+--poiret-one: 'Poiret One', cursive;
+--special-elite: 'Special Elite', cursive;
+--bangers: 'Bangers', cursive;
+--monoton: 'Monoton', cursive;
+--big-shoulders: 'Big Shoulders Display', cursive;
+--audiowide: 'Audiowide', cursive;
+--trade-winds: 'Trade Winds', cursive;
+--fugaz-one: 'Fugaz One', cursive;
+--press-start-2p: 'Press Start 2P', cursive;
+--chewy: 'Chewy', cursive;
+--forum: 'Forum', cursive;
+--black-ops-one: 'Black Ops One', cursive;
+--overlock: 'Overlock', cursive;
+--arima-maduria: 'Arima Madurai', cursive;
+--gruppo: 'Gruppo', cursive;
+--graduate: 'Graduate', cursive;
+--nixie-one: 'Nixie One', cursive;
+--bungee: 'Bungee', cursive;
+--kelly-slab: 'Kelly Slab', cursive;
+--love-ya: 'Love Ya Like A Sister', cursive;
+--bubblegum: 'Bubblegum Sans', cursive;
+ --yeon-sung: 'Yeon Sung', cursive;
+ --coda-caption: 'Coda Caption', sans-serif;
+ --overpass-mono: 'Overpass Mono', monospace;
+ --bai-jamjuree: 'Bai Jamjuree', sans-serif;
+ --krub: 'Krub', sans-serif;
+ --anonymous-pro: 'Anonymous Pro', monospace;
+ --dark-grotesque: 'Darker Grotesque', sans-serif;
+ --gilder-display: 'Gilda Display', serif;
+ --homenaje: 'Homenaje', sans-serif;
+ --sansita: 'Sansita', sans-serif;
+ --do-hyeon: 'Do Hyeon', sans-serif;
+ --fell-english: 'IM Fell English SC', serif;
+ --seaweed: 'Seaweed Script', cursive;
+ --sedgwick: 'Sedgwick Ave Display', cursive;
+ --vast-shadow: 'Vast Shadow', cursive;
+ --carrois: 'Carrois Gothic SC', sans-serif;
+ --montez: 'Montez', cursive;
+
+ --staatliches: 'Staatliches', cursive;
+ --montserrat: 'Montserrat', sans-serif;
+ --saira-cond: 'Saira Condensed', sans-serif;
+ --zcool-xiawei: 'ZCOOL XiaoWei', serif;
+ --muli: 'Muli', sans-serif;
+ --titillium: 'Titillium Web', sans-serif;
+ --fira-sans: 'Fira Sans', sans-serif;
+ --fira-code: 'Fira Code', monospace;
+ --nanum-gothic: 'Nanum Gothic', sans-serif;
+ --arimo: 'Arimo', sans-serif;
+ --inconsolata: 'Inconsolata', monospace;
+ --heebo: 'Heebo', sans-serif;
+ --oxygen: 'Oxygen', sans-serif;
+ --josefin-cans: 'Josefin Sans', sans-serif;
+ --karla: 'Karla', sans-serif;
+ --source-code: 'Source Code Pro', monospace;
+ --abel: 'Abel', sans-serif;
+
+ --big-shoulders: 'Big Shoulders Display', cursive;
+ --be-vietnam: 'Be Vietnam', sans-serif;
+ --mansalva: 'Mansalva', cursive;
+ --roboto-cond: 'Roboto Condensed', sans-serif;
+ --oswald: 'Oswald', sans-serif;
+ --turret-road: 'Turret Road', cursive;
+ --muli: 'Muli', sans-serif;
+ --vibes: 'Vibes', cursive;
+ --titillium: 'Titillium Web', sans-serif;
+
+ --pathway-gothic: 'Pathway Gothic One', sans-serif;
+ --barlow-semi: 'Barlow Semi Condensed', sans-serif;
+ --istok-web: 'Istok Web', sans-serif;
+ --m-plus-1: 'M PLUS 1p', sans-serif;
+ --sacremento: 'Sacramento', cursive;
+ --chivo: 'Chivo', sans-serif;
+ --yantramanav: 'Yantramanav', sans-serif;
+ --hind-guntur: 'Hind Guntur', sans-serif;
+ --gothic-a1: 'Gothic A1', sans-serif;
+
+ --pangolin: 'Pangolin', cursive;
+ --contrail-one: 'Contrail One', cursive;
+ --manjari: 'Manjari', sans-serif;
+ --capriola: 'Capriola', sans-serif;
+ --niramet: 'Niramit', sans-serif;
+ --freckle-face: 'Freckle Face', cursive;
+ --palanquin-dark: 'Palanquin Dark', sans-serif;
+ --krub: 'Krub', sans-serif;
+ --duru-dans: 'Duru Sans', sans-serif;
+ --athiti: 'Athiti', sans-serif;
+
+ /* Coolors */
+
+ --dark-gunmetal: #202030;
+ --trolley-grey: #7E8287;
+ --russet: #854D27;
+ --carrot-orange: #DD7230;
+ --still-d-grain: #F4C95D;
+ --ryb-blue: #004FFF;
+
+ --red-black: #000;
+ --tomato: #F06543;
+ --shiny-shamrock: #5FAD56;
+ --pineapple: #5C415D;
+ --licorice: #1C110A;
+ --antique-fuchsia: #995D81;
+ --prune: #6E0D25;
+ --dark-purple: #320A28;
+ --deep-ruby: #734B5E;
+ --m-vermillion: #D5573B;
+ --silver: #BFBDC1;
+ --raisin-black: #271F30;
+ --midnight-green: #114B5F;
+ --flame: #E4572E;
+ --french-blue: #0267C1;
+ --d-terracotta: #DB5461;
+ --smokey-black: #0A100D;
+ --deep-koamaru: #2B4162;
+ --tumbleweed: #D8A47F;
+ --japanese-indigo: #233D4D;
+ --tangelo: #FFAC81;
+ --alabaster: #EAF2E3;
+ --copper-penny: #B2675E;
+ --dark-gunmetal: #202030;
+ --dark-jungle: #14281D;
+ --mid-red-purple: #161032;
+ --leather-green: #283618;
+ --tart-orange: #FE4A49;
+ --jet: #34344A;
+ --light-salmon: #FAA275;
+ --vivid-orange: #F0A202;
+ --trolley-grey: #7E8287;
+ --zinnwaldite: #251605;
+ --prussian-blue: #003049;
+ --dark-scarlet: #650D1B;
+ --deer: #BB9457;
+ --burgundy: #710627;
+ --jelly-bean: #DE6B48;
+ --persian-orange: #DE9151;
+ --max-red: #DE1A1A;
+ --steel-teal: #628395;
+ --bright-navy-blue: #2D7DD2;
+ --feldgrau: #4C5B5C;
+ --bdazzled-blue: #26547C;
+ --onyx: #31393C;
+ --sun-blue: #f9f9f9;
+}
+
+/* Universal Styles */
+
+html {
+ font-size: 10px;
+ box-sizing: border-box;
+}
+
+a {
+ text-decoration: none;
+}
+
+ul {
+ list-style: none;
+}
+
+img {
+ width: 100%;
+ max-width: 100%;
+ height: auto;
+}
+
+p {
+ font-size: 1.6rem;
+}
+
+h6 {
+ font-size: 2rem;
+}
+
+h5 {
+ font-size: 2.4rem;
+}
+
+h4 {
+ font-size: 2.8rem;
+}
+
+h3 {
+ font-size: 3.2rem;
+}
+
+h2 {
+ font-size: 3.6rem;
+}
+
+h1 {
+ font-size: 4rem;
+}
+
+.btn {
+ border-radius: 2rem;
+ background-color: var(--deer);
+ color: var(--bdazzled-blue);
+ padding: .5rem 2rem;
+ display: inline-block;
+ font-size: 1.2rem;
+ font-weight: 600;
+ margin: 1.2rem 0;
+ transition: 420ms ease;
+}
+
+.btn:hover {
+ background-color: var(--feldgrau);
+ color: var(--sun-blue);
+}
+
+
+section {
+ padding: 5rem 0;
+}
+
+body {
+ background: var(--bdazzled-blue);
+ color: var(--sun-blue);
+}
+
+/* Header */
+
+header {
+ width: 100%;
+ height: 7rem;
+ position: absolute;
+ top: 0;
+ left: 0;
+ z-index: 1;
+}
+
+.container {
+ width: 100%;
+ max-width: 98rem;
+ padding: 0 1.5rem;
+ margin: 0 auto;
+}
+
+.nav__brand {
+ font-size: 1.8rem;
+ color: var(--sun-blue);
+ font-weight: 600;
+}
+
+.menu__icons {
+ font-size: 1.8rem;
+ cursor: pointer;
+ transition: 420ms ease;
+}
+
+.menu__icons:hover {
+ color: var(--still-d-grain)
+}
+nav {
+ width: 100%;
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ padding: 1rem 0;
+}
+
+.nav__list {
+ width: 25rem;
+ height: 100vh;
+ background: var(--antique-fuchsia);
+ position: fixed;
+ top: 0;
+ right: -26rem;
+ opacity: 0;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ transition: all 650ms ease-in-out, opacity 820ms ease;
+}
+
+.nav__list.active {
+ right: 0;
+ opacity: 1;
+}
+
+.close {
+ position: absolute;
+ bottom: 2rem;
+ text-align: center;
+}
+
+.nav__item {
+ margin: 1.5rem 0;
+}
+
+.nav__link {
+ font-size: 1.6rem;
+ color: var(--still-d-grain);
+ text-transform: uppercase;
+ transition: 420ms ease;
+}
+
+.nav__link:hover {
+ color: var(--persian-orange);
+}
+
+/* Hero */
+
+#hero {
+ width: 100%;
+ height: 90vh;
+ background: linear-gradient(135deg, rgba(46, 64, 87, .7) 0%, rgba(46, 64, 87, .3) 100%), url('../img/elephant.jpeg') center no-repeat;
+ background-size: cover;
+ position: relative;
+}
+
+.main__message {
+ width: 100%;
+ max-width: 50rem;
+ text-transform: uppercase;
+ transform: translateY(20%);
+}
+
+.main__message h3 {
+ font-size: 1.6rem;
+}
+
+.main__message h1 {
+ font-size: 3rem;
+ margin: 1rem 0;
+}
+
+.main__message p {
+ text-transform: lowercase;
+}
+
+/* Media Queries */
+
+@media screen and (min-width: 600px) {
+
+ .nav__list {
+  width: initial;
+  height: initial;
+  background: initial;
+  position: initial;
+  top: initial;
+  right: initial;
+  opacity: initial;
+  flex-direction: row;
+  transition: initial;
+ }
+
+ .menu__icons {
+  display: none;
+ }
+
+ .nav__item {
+  margin: 0 2rem;
+ }
+
+ .main__message {
+  transform: translateY(70%);
+  max-width: 60rem;
+ }
+}
+
+/* Fonts */
+
+#fonts .container {
+ display: flex;
+ align-items: center;
+ justify-content: space-around;
+ flex-wrap: wrap;
+ line-height: 1.7;
+ letter-spacing: .2rem;
+}
+
+.font__style {
+ padding: 2rem;
+}
+
+.font__name {
+ color: var(--dark-scarlet);
+}
+
+/* Font Styles */
+
+.fredoka {
+ font-family: var(--fredoka);
+}
+
+.luckiest-guy {
+ font-family: var(--luckiest-guy);
+}
+
+.concert-one {
+ font-family: var(--concert-one);
+}
+
+
+
+
