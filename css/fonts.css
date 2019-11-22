@@ -25,29 +25,29 @@
 
 :root {
  --fredoka: 'Fredoka One', cursive;
---luckiest-guy: 'Luckiest Guy', cursive;
---concert-one: 'Concert One', cursive;
---poiret-one: 'Poiret One', cursive;
---special-elite: 'Special Elite', cursive;
---bangers: 'Bangers', cursive;
---monoton: 'Monoton', cursive;
---big-shoulders: 'Big Shoulders Display', cursive;
---audiowide: 'Audiowide', cursive;
---trade-winds: 'Trade Winds', cursive;
---fugaz-one: 'Fugaz One', cursive;
---press-start-2p: 'Press Start 2P', cursive;
---chewy: 'Chewy', cursive;
---forum: 'Forum', cursive;
---black-ops-one: 'Black Ops One', cursive;
---overlock: 'Overlock', cursive;
---arima-maduria: 'Arima Madurai', cursive;
---gruppo: 'Gruppo', cursive;
---graduate: 'Graduate', cursive;
---nixie-one: 'Nixie One', cursive;
---bungee: 'Bungee', cursive;
---kelly-slab: 'Kelly Slab', cursive;
---love-ya: 'Love Ya Like A Sister', cursive;
---bubblegum: 'Bubblegum Sans', cursive;
+ --luckiest-guy: 'Luckiest Guy', cursive;
+ --concert-one: 'Concert One', cursive;
+ --poiret-one: 'Poiret One', cursive;
+ --special-elite: 'Special Elite', cursive;
+ --bangers: 'Bangers', cursive;
+ --monoton: 'Monoton', cursive;
+ --big-shoulders: 'Big Shoulders Display', cursive;
+ --audiowide: 'Audiowide', cursive;
+ --trade-winds: 'Trade Winds', cursive;
+ --fugaz-one: 'Fugaz One', cursive;
+ --press-start-2p: 'Press Start 2P', cursive;
+ --chewy: 'Chewy', cursive;
+ --forum: 'Forum', cursive;
+ --black-ops-one: 'Black Ops One', cursive;
+ --overlock: 'Overlock', cursive;
+ --arima-maduria: 'Arima Madurai', cursive;
+ --gruppo: 'Gruppo', cursive;
+ --graduate: 'Graduate', cursive;
+ --nixie-one: 'Nixie One', cursive;
+ --bungee: 'Bungee', cursive;
+ --kelly-slab: 'Kelly Slab', cursive;
+ --love-ya: 'Love Ya Like A Sister', cursive;
+ --bubblegum: 'Bubblegum Sans', cursive;
  --yeon-sung: 'Yeon Sung', cursive;
  --coda-caption: 'Coda Caption', sans-serif;
  --overpass-mono: 'Overpass Mono', monospace;
@@ -281,6 +281,7 @@ header {
 .menu__icons:hover {
  color: var(--still-d-grain)
 }
+
 nav {
  width: 100%;
  display: flex;
@@ -422,7 +423,3 @@ nav {
 .concert-one {
  font-family: var(--concert-one);
 }
-
-
-
-
