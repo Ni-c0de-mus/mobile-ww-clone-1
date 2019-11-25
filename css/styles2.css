@@ -199,6 +199,113 @@ nav {
  position: relative;
 }
 
+.main__message {
+ width: 100%;
+ max-width: 50rem;
+ color: var(--ww-white);
+ text-transform: uppercase;
+ transform: translateY(20%);
+}
+
+.main__message h3 {
+ font-size: 1.6rem;
+}
+
+.main__message h1 {
+ font-size: 3rem;
+ margin: 2rem 0;
+}
+
+.main__message p {
+ text-transform: lowercase;
+}
+
+/* Experience the Outdoors */
+
+#experience__outdoors {
+ padding: 0;
+}
+
+.title__heading {
+ text-align: center;
+ text-transform: uppercase;
+ margin: 5rem 0;
+ color: var(--ww-white);
+}
+
+.title__heading h3 {
+ font-size: 1.4rem;
+}
+
+.title__heading h1 {
+ font-family: var(--graduate);
+ font-size: 2rem;
+ margin: .5rem 0 1rem;
+}
+
+.title__heading p {
+ text-transform: lowercase;
+}
+
+.activities__grid {
+ display: grid;
+ grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+ grid-gap: 2.5rem;
+}
+
+.activities__grid__item {
+ height: 40rem;
+ padding: 5rem;
+ color: var(--ww-white);
+ position: relative;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ cursor: pointer;
+ z-index: 1;
+}
+
+.activities__grid__item::before {
+ content: "";
+ position: absolute;
+ top: 0;
+ left: 0;
+ width: 100%;
+ height: 100%;
+ background-image: linear-gradient(135deg, rgba(46, 64, 87, .7) 0%, rgba(46, 64, 87, .3) 100%);
+ z-index: -1;
+}
+
+.star__gazing {
+ background: url('../img/sunset_skyline.jpg') center no-repeat;
+}
+
+.hiking {
+ background: url('../img/sunset_skyline.jpg') center no-repeat;
+}
+
+.camping {
+ background: url('../img/sunset_skyline.jpg') center no-repeat;
+}
+
+.activities__grid__item i {
+ font-size: 4rem;
+ color: var(--ww-green);
+}
+
+.activities__grid__item h1 {
+ font-family: var(--nixie-one);
+ font-size: 1.7rem;
+ text-transform: uppercase;
+ margin: 2rem 0;
+}
+
+
+
+
+
+
+
 /* Media Queries */
 
 @media screen and (min-width: 600px) {
@@ -222,6 +329,3 @@ nav {
  .menu__icons {
   display: none;
  }
-
- .n
-}
